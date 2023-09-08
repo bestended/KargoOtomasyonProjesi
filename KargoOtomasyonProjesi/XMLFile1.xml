@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Araclar>
+
+	<Araclarim>
+		<shipmentNum>5</shipmentNum>
+		<customerNumber>4</customerNumber>
+		<carExpense>70000</carExpense>
+		<carDriverName>Fehmi</carDriverName>
+		<carCapacity>70000</carCapacity>
+		<carName>Mercedes</carName>
+		<carNumber>2</carNumber>
+
+	</Araclarim>
+
+	<Araclarim>
+		<shipmentNum>6</shipmentNum>
+		<customerNumber>1</customerNumber>
+		<carExpense>300</carExpense>
+		<carDriverName>Sinan</carDriverName>
+		<carCapacity>5000</carCapacity>
+		<carName>Audi</carName>
+		<carNumber>5</carNumber>
+
+	</Araclarim>
+
+
+	<Araclarim>
+		<shipmentNum>6</shipmentNum>
+		<customerNumber>2</customerNumber>
+		<carExpense>500</carExpense>
+		<carDriverName>Okan</carDriverName>
+		<carCapacity>7000</carCapacity>
+		<carName>Opel</carName>
+		<carNumber>7</carNumber>
+
+	</Araclarim>
+
+
+	<Araclarim>
+		<shipmentNum>5</shipmentNum>
+		<customerNumber>4</customerNumber>
+		<carExpense>800</carExpense>
+		<carDriverName>Tufan</carDriverName>
+		<carCapacity>7000</carCapacity>
+		<carName>Opel</carName>
+		<carNumber>8</carNumber>
+
+	</Araclarim>
+	<Araclarim>
+		<shipmentNum>5</shipmentNum>
+		<customerNumber>4</customerNumber>
+		<carExpense>500</carExpense>
+		<carDriverName>hasan</carDriverName>
+		<carCapacity>500</carCapacity>
+		<carName>Opel</carName>
+		<carNumber>9</carNumber>
+
+	</Araclarim>
+
+
+</Araclar>

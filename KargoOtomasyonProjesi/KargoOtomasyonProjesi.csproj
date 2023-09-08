@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D8ADC52-3498-4FE9-9883-D0DC42A1C6E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KargoOtomasyonProjesi</RootNamespace>
+    <AssemblyName>KargoOtomasyonProjesi</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfam.Designer.cs">
+      <DependentUpon>AnaSayfam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Araclar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Araclar.Designer.cs">
+      <DependentUpon>Araclar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AraclarXml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AraclarXml.Designer.cs">
+      <DependentUpon>AraclarXml.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AracRaporlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AracRaporlari.Designer.cs">
+      <DependentUpon>AracRaporlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerRaporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerRaporlar.Designer.cs">
+      <DependentUpon>CustomerRaporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciKontrolEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciKontrolEkrani.Designer.cs">
+      <DependentUpon>KullaniciKontrolEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personellers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personellers.Designer.cs">
+      <DependentUpon>Personellers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelRaporlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelRaporlari.Designer.cs">
+      <DependentUpon>PersonelRaporlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="roundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sevkiyatim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sevkiyatim.Designer.cs">
+      <DependentUpon>Sevkiyatim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SevkiyatRaporlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SevkiyatRaporlari.Designer.cs">
+      <DependentUpon>SevkiyatRaporlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SevkiyatXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SevkiyatXML.Designer.cs">
+      <DependentUpon>SevkiyatXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlDosyalari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XmlDosyalari.Designer.cs">
+      <DependentUpon>XmlDosyalari.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnaSayfam.resx">
+      <DependentUpon>AnaSayfam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Araclar.resx">
+      <DependentUpon>Araclar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AraclarXml.resx">
+      <DependentUpon>AraclarXml.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AracRaporlari.resx">
+      <DependentUpon>AracRaporlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerRaporlar.resx">
+      <DependentUpon>CustomerRaporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciKontrolEkrani.resx">
+      <DependentUpon>KullaniciKontrolEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personellers.resx">
+      <DependentUpon>Personellers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelRaporlari.resx">
+      <DependentUpon>PersonelRaporlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sevkiyatim.resx">
+      <DependentUpon>Sevkiyatim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SevkiyatRaporlari.resx">
+      <DependentUpon>SevkiyatRaporlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SevkiyatXML.resx">
+      <DependentUpon>SevkiyatXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XmlDosyalari.resx">
+      <DependentUpon>XmlDosyalari.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{4a791e09-f52b-4a40-816c-24808b7eb744}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{76cfa72b-2f18-48e2-9e88-7b0d18ba6b4b}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\XMLFile1.xml" />
+    <Content Include="bin\sevkVerisi.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
